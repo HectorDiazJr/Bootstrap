@@ -1,17 +1,34 @@
-
+body {
+    background-image: url('https://my.alfred.edu/zoom/_images/foster-lake-thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 #name {
-    background-color:aquamarine;
+    background-color: lightblue;
 }
 
 h1 {
-    color:aquamarine;
+    color: blue;
 }
 
 img {
-    width: 45%;
+    width: 50%;
     height: 80%;
+    padding: 20px;
+}
+
+.index {
+    width: 80%;
+    height: auto;
 }
 
 .container {
-    margin: 50px auto;
+    margin: 50px;
+    border: 1px solid black;
+    background-color:whitesmoke;
+}
+
+form {
+    margin-bottom: 30px;
 }

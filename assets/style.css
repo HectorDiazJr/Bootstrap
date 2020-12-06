@@ -13,14 +13,10 @@ h1 {
 }
 
 img {
-    width: 50%;
-    height: 80%;
+    width: 475px;
+    height: 500px;
     padding: 20px;
-}
-
-.index {
-    width: 80%;
-    height: auto;
+    float:left;
 }
 
 .container {
@@ -31,4 +27,17 @@ img {
 
 form {
     margin-bottom: 30px;
+}
+
+footer {
+    background-color:whitesmoke;
+    float:bottom;
+    text-align: center;
+    padding: 5px;
+    font-size:14px;
+    line-height: 16px;
+}
+
+#whitebackground {
+    background-color:white;
 }

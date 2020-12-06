@@ -1,3 +1,4 @@
+/*added background image*/
 body {
     background-image: url('https://my.alfred.edu/zoom/_images/foster-lake-thumbnail.jpg');
     background-repeat: no-repeat;
@@ -5,28 +6,24 @@ body {
     background-size: cover;
   }
   
-
+/*making the heading have a blue font*/
 h1 {
     color: blue;
 }
-
+/*setting the size of the image*/
 img {
     width: 475px;
     height: 500px;
     padding: 20px;
     float:left;
 }
-
+/*adjusting the size of the container*/
 .container {
     margin: 50px;
     border: 1px solid black;
     background-color:whitesmoke;
 }
-
-form {
-    margin-bottom: 30px;
-}
-
+/*footer style*/
 footer {
     background-color:whitesmoke;
     float:bottom;
@@ -35,7 +32,7 @@ footer {
     font-size:14px;
     line-height: 16px;
 }
-
+/*background color for the main elemts*/
 #whitebackground {
     background-color:white;
 }

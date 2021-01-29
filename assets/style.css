@@ -17,6 +17,10 @@ img {
     padding: 10px;
 }
 
+#indexPX {
+    float: left;
+}
+
 nav {
     margin-bottom: 10px;
 }

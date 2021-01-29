@@ -5,18 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="assets/smile-wearing-black-sunglasses.jpg"/>
+    
     <!--linke to bootstrap style sheet-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--link to my stylesheet-->
     <link rel="stylesheet" href="assets/style.css">
+
+    <!-- links to google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <!--navbar at the top of the page-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" id="name" href="#">Hector Diaz</a>
+        <a class="navbar-brand" id="name" href="#">Hector Diaz </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,8 +35,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <!-- added ml-auto mt-2 mt-lg-0-->
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a> -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -40,10 +51,11 @@
     <div class="container">
 
         <main class="row">
-            <div class="col-md-8" id="whitebackground">
+            <div class="col-md-12" id="whitebackground">
                 <article class="block">
                     <!--heading-->
-                    <h1 class="block-header">Portfolio</h1>
+                    <h5 class="block-header" id="portfolio">email: hectordiaz1103@gmail.com - phone: (616) 890-8982</h5>
+                    <a href="assets/HectorDiaz-Resume - Google Docs.pdf">Click here to view my Resume</a>
                     <!--images-->
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-6">
@@ -66,9 +78,10 @@
             </div>
         </main>
         <footer>
-            <p>copyright</p>
+            <p id="googlefont">Hector Diaz Jr</p>
             <!--link to my linkedin-->
             <a href="https://www.linkedin.com/in/hector-diaz-523b761b8/"> My LinkedIn </a>
+            <a href="https://github.com/HectorDiazJr">/ My GitHub Profile</a>
         </footer>
     </div>
 </body>

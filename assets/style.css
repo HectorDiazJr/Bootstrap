@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-  }
+}
   
 /*making the heading have a blue font*/
 h1 {
@@ -17,11 +17,18 @@ img {
     padding: 20px;
     float:left;
 }
+
+nav {
+    margin-bottom: 10px;
+}
 /*adjusting the size of the container*/
 .container {
     margin: 50px;
     border: 1px solid black;
     background-color:whitesmoke;
+    margin: auto;
+    width: 90%;
+    padding: 25px;
 }
 /*footer style*/
 footer {
@@ -31,8 +38,29 @@ footer {
     padding: 5px;
     font-size:14px;
     line-height: 16px;
+    margin-top: 10px;
 }
 /*background color for the main elemts*/
 #whitebackground {
     background-color:white;
 }
+
+#indexPX {
+    max-width:100%;
+    height:auto;
+}
+ h5, a {
+    text-align: center;  
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive;   
+ }
+
+ #googlefont {
+    font-family: 'Dancing Script', cursive;
+ }
+
+ #name {
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+ }

@@ -14,8 +14,7 @@ h1 {
 img {
     width: 475px;
     height: 500px;
-    padding: 20px;
-    float:left;
+    padding: 10px;
 }
 
 nav {
@@ -50,7 +49,7 @@ footer {
     height:auto;
 }
  h5, a {
-    text-align: center;  
+    /* text-align: center;   */
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Shadows Into Light', cursive;   
@@ -63,4 +62,8 @@ footer {
  #name {
     font-family: 'Lobster Two', cursive;
     font-size: 40px;
+ }
+
+ p {
+     text-align: center;
  }

@@ -5,6 +5,15 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+nav {
+    border-color: black;
+    margin-bottom: 25px;
+}
+
+.container {
+    margin-bottom: 25px;
+}
   
 /*making the heading have a blue font*/
 h1 {
@@ -22,7 +31,7 @@ img {
 }
 
 nav {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 /*adjusting the size of the container*/
 .container {
@@ -45,21 +54,27 @@ footer {
 }
 /*background color for the main elemts*/
 #whitebackground {
-    background-color:white;
+    background-color:whitesmoke;
 }
 
 #indexPX {
     max-width:100%;
     height:auto;
 }
- h5, a {
+ h5, h1 {
     /* text-align: center;   */
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
     font-family: 'Shadows Into Light', cursive;   
  }
 
- #googlefont {
+ a {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Shadows Into Light', cursive; 
+}
+
+ .googlefont {
     font-family: 'Dancing Script', cursive;
  }
 
@@ -70,4 +85,12 @@ footer {
 
  p {
      text-align: center;
+ }
+
+ main {
+     margin-top: 25px;
+ }
+
+ footer {
+     margin-top: 25px;
  }
